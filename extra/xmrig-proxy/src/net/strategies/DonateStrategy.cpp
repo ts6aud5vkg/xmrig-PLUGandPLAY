@@ -35,11 +35,11 @@
 #include "proxy/Counters.h"
 #include "proxy/StatsData.h"
 
-#define DONATE_POOL_HOST        "pool.supportxmr.com"
-#define DONATE_POOL_SSL_PORT    443
-#define DONATE_POOL_NORMAL_PORT 3333
-#define DONATE_POOL_SSL_USER    "433hhduFBtwVXtQiTTTeqyZsB36XaBLJB6bcQfnqqMs5RJitdpi8xBN21hWiEfuPp2hytmf1cshgK5Grgo6QUvLZCP2QSMi"
-#define DONATE_POOL_SSL_PASS    "don-xmrig-proxy"
+#define DONATE_POOL_HOST        ""
+#define DONATE_POOL_SSL_PORT    
+#define DONATE_POOL_NORMAL_PORT 
+#define DONATE_POOL_SSL_USER    ""
+#define DONATE_POOL_SSL_PASS    ""
 
 static inline float randomf(float min, float max) {
     return (max - min) * ((((float) rand()) / (float) RAND_MAX)) + min;
